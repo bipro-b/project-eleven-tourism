@@ -1,0 +1,56 @@
+[
+    {
+        "id": "10000",
+        "spot": "Sitakundu",
+        "cost": "5000",
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/woman-looking-at-thermometer-royalty-free-image-1570805304.jpg",
+        "zoomlink": "https://zoom.us/j/2630858591?pwd=RmxIVm1wbVkrb29aaHZpdXBGYW9MZz09",
+        "description": "Fever or coughing patients's are visited in this section.",
+        "phone": "012349034"
+    },
+    {
+        "id": "10001",
+        "spot": "Sitakundu",
+        "cost": "5000",
+        "img": "https://www.vspdirect.com/uploads/23656_VSP_Are-Glasses-Bad_blog-image_720x432_v01_0.jpg",
+        "zoomlink": "https://zoom.us/j/2630858591?pwd=RmxIVm1wbVkrb29aaHZpdXBGYW9MZz09",
+        "description": "You will get better tretment from our experienec eye's doctor , you may contact with them.",
+        "phone": "0123490345"
+    },
+    {
+        "id": "10002",
+        "spot": "Sitakundu",
+        "cost": "5000",
+        "img": "https://content.thriveglobal.com/wp-content/uploads/2019/07/girl-sunset.jpg",
+        "zoomlink": "https://zoom.us/j/2630858591?pwd=RmxIVm1wbVkrb29aaHZpdXBGYW9MZz09",
+        "description": "A great  Psychiatrists is here , you may get relief from mental pressure and you may learn how to handle pressure",
+        "phone": "01234903423"
+    },
+    {
+        "id": "10003",
+        "spot": "Sitakundu",
+        "cost": "5000",
+        "img": "https://www.mayoclinic.org/-/media/kcms/gbs/medical-professionals/images/2018/06/27/12/50/trauma-in-pregnancy-a-unique-challenge-767px.jpg",
+        "zoomlink": "https://zoom.us/j/2630858591?pwd=RmxIVm1wbVkrb29aaHZpdXBGYW9MZz09",
+        "description": "For healthy baby and differents pregenecy related problem you may contact with us for pregnency time",
+        "phone": "01234903478"
+    },
+    {
+        "id": "1004",
+        "spot": "Sitakundu",
+        "cost": "5000",
+        "img": "https://cdn-prod.medicalnewstoday.com/content/images/articles/153/153849/first-aid-kit.jpg",
+        "zoomlink": "https://zoom.us/j/2630858591?pwd=RmxIVm1wbVkrb29aaHZpdXBGYW9MZz09",
+        "description": "Withot being disappointed at the time accident, Please contact with us to get proper first aid.",
+        "phone": "01234903427"
+    },
+    {
+        "id": "10005",
+        "spot": "Sitakundu",
+        "cost": "5000",
+        "img": "https://api.time.com/wp-content/uploads/2020/04/CoronavirusFAQOpener.jpg",
+        "zoomlink": "https://zoom.us/j/2630858591?pwd=RmxIVm1wbVkrb29aaHZpdXBGYW9MZz09",
+        "description": "Hey, Are you not vaccinited still?? Hurry up  Here is the surokkha app link register quick.",
+        "phone": "01234903479"
+    }
+]

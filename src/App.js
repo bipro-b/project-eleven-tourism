@@ -1,23 +1,49 @@
-import logo from './logo.svg';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import AuthProvider from './context/AuthProvider';
+import AddNew from './page/AddNew/AddNew';
+import Booking from './page/Booking/Booking';
+import Home from './page/Home/Home';
+import Login from './page/Login/Login';
+import ManageTour from './page/ManageTour/ManageTour';
+import NotFound from './page/NotFound/NotFound';
+import Spots from './page/Spots/Spots';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AuthProvider>
+        <Router>
+          <Switch>
+            <Route exact path="/" >
+              <Home></Home>
+
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/spots">
+              <Spots></Spots>
+            </Route>
+            <Route path="/spot/:spotId">
+              <Booking></Booking>
+            </Route>
+            <Route path="/managetour">
+              <ManageTour></ManageTour>
+            </Route>
+            <Route path="/addnew">
+              <AddNew></AddNew>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route exact path="*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
