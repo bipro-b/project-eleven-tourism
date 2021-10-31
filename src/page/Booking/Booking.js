@@ -63,7 +63,7 @@ const Booking = () => {
                                     </Card.Title>
                                     <p> {bookDetails?.description}</p>
                                     <p>   Cost: {bookDetails?.cost} ৳</p>
-                                    <Link><button className="btn btn-primary">Manage</button></Link>
+                                    <Link to="/manageselection"><button className="btn btn-primary">Manage</button></Link>
                                 </Card.Body>
 
 

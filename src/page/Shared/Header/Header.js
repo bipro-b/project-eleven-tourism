@@ -17,7 +17,7 @@ const Header = () => {
             <div className="header">
                 <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
                     <Container>
-                        <Navbar.Brand to="/home">Genius</Navbar.Brand>
+                        <Navbar.Brand to="/home">Study Tour</Navbar.Brand>
                         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                         <Navbar.Collapse className="justify-content-end">
                             <NavLink to="/home" activeStyle={activeStyle}>Home</NavLink>

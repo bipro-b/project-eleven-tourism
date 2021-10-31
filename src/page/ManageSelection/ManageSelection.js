@@ -28,7 +28,7 @@ const ManageSelection = () => {
             <Header></Header>
             <div>
 
-                <h3>You may delete your selection place</h3>
+                <h3>You may delete your selection tourist place</h3>
 
                 <Card className="card h-100 w-auto">
                     <Card.Img style={{ height: '500px', width: '' }} variant="top" src={bookDetails?.img} />
