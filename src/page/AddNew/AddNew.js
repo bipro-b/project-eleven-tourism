@@ -9,7 +9,7 @@ const AddNew = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/spots', data)
+        axios.post('https://shrieking-zombie-24500.herokuapp.com/spots', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Added successfullt');
@@ -24,10 +24,10 @@ const AddNew = () => {
             <div className="add-spot">
                 <h3>Add new Spot</h3>
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <input {...register("name", { required: true, maxLength: 20 })} placeholder="name" />
+                    <input {...register("spot", { required: true, maxLength: 20 })} placeholder="spot name" />
 
                     <textarea {...register("description")} placeholder="description" />
-                    <input type="number" {...register("cost")} placeholder="price" />
+                    <input type="number" {...register("cost")} placeholder="cost" />
                     <input {...register('img')} placeholder="upload image" />
                     <input type="submit" />
                 </form>

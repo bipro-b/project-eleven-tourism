@@ -6,6 +6,7 @@ import AddNew from './page/AddNew/AddNew';
 import Booking from './page/Booking/Booking';
 import Home from './page/Home/Home';
 import Login from './page/Login/Login';
+import ManageSelection from './page/ManageSelection/ManageSelection';
 import ManageTour from './page/ManageTour/ManageTour';
 import NotFound from './page/NotFound/NotFound';
 import PrivateRoute from './page/NotFound/PrivateRoute';
@@ -30,12 +31,15 @@ function App() {
             <PrivateRoute path="/spot/:spotId">
               <Booking></Booking>
             </PrivateRoute>
-            <Route path="/managetour">
+            <PrivateRoute path="/manageselection">
+              <ManageSelection></ManageSelection>
+            </PrivateRoute>
+            <PrivateRoute path="/managetour">
               <ManageTour></ManageTour>
-            </Route>
-            <Route path="/addnew">
+            </PrivateRoute>
+            <PrivateRoute path="/addnew">
               <AddNew></AddNew>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>

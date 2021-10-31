@@ -8,18 +8,18 @@ const Footer = () => {
         <div className="footer">
             <div className="row">
                 <div className="col-md-4">
-                    <h2>E Hospital service point </h2>
-                    <p>Come to get better treament.</p>
+                    <h2>Study Tour</h2>
+                    <p>Hey book here to enjoy.</p>
                     authority©. ALl rights reseves.
                 </div>
                 <div className="col-md-4">
-                    <h2>Our Services</h2>
+                    <h2>Our Tou places</h2>
                     <ul className=" mx-auto">
-                        <li>Fever</li>
-                        <li>Mental Stress</li>
-                        <li>Eye</li>
-                        <li>Pregnency</li>
-                        <li>First Aid</li>
+                        <li>Sitakundu</li>
+                        <li>Srimangal</li>
+                        <li>Coxs bazar</li>
+                        <li>syhlet</li>
+                        <li>Kua Kata</li>
                     </ul>
                 </div>
                 <div className="col-md-4">

@@ -4,6 +4,7 @@ import { Card, Col, Container } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+
 import useAuth from '../../hooks/useAuth';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
@@ -62,7 +63,7 @@ const Booking = () => {
                                     </Card.Title>
                                     <p> {bookDetails?.description}</p>
                                     <p>   Cost: {bookDetails?.cost} ৳</p>
-                                    <Link to="/managetour"> <button style={{ alignItems: 'center', marginLeft: "40px" }} className="btn btn-primary ms-40px">Manage Tour</button></Link>
+                                    <Link><button className="btn btn-primary">Manage</button></Link>
                                 </Card.Body>
 
 
@@ -71,15 +72,16 @@ const Booking = () => {
 
 
                             <div className="details">
-                                <h3>Add service</h3>
+                                <h3>Submit your information</h3>
                                 <form onSubmit={handleSubmit(onSubmit)}>
                                     <input defaultValue={user?.displayName} {...register("name", { required: true, maxLength: 20 })} />
                                     <input defaultValue={user.email} {...register("email", { required: true, maxLength: 50 })} />
 
                                     <textarea defaultValue={bookDetails?.description} {...register("description")} />
                                     <input type="address" {...register("address")} placeholder="address" />
+                                    <input type="address" {...register("city")} placeholder="city" />
                                     <input type="number" {...register("phone")} placeholder="your phone number" />
-                                    <input {...register('img')} placeholder="upload image(Give a photo URL)" />
+
                                     <input type="submit" />
                                 </form>
 

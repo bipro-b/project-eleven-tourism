@@ -1,6 +1,5 @@
 [
     {
-        "id": "10000",
         "spot": "Sitakundu",
         "cost": "5000",
         "img": "https://vromonguide.com/wp-content/uploads/sitakunda-eco-park-chittagong.jpg",
@@ -9,7 +8,6 @@
         "phone": "012349034"
     },
     {
-        "id": "10001",
         "spot": "Cox's Bazar",
         "cost": "5000",
         "img": "https://mhinternationalctg.com/wp-content/uploads/2020/11/Coxs-Bazar-1.jpg",
@@ -18,7 +16,6 @@
         "phone": "0123490345"
     },
     {
-        "id": "10002",
         "spot": "Rangamati",
         "cost": "5000",
         "img": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Hanging_Bridge%2C_Kaptai_Lake.jpg",
@@ -27,7 +24,6 @@
         "phone": "01234903423"
     },
     {
-        "id": "10003",
         "spot": "Paharpur",
         "cost": "5000",
         "img": "https://bdtourism.website/wp-content/uploads/2019/07/paharpur1.jpg",
@@ -36,7 +32,6 @@
         "phone": "01234903478"
     },
     {
-        "id": "1004",
         "spot": "Sundarban",
         "cost": "5000",
         "img": "https://thewall.in/wp-content/uploads/2018/10/tiger.jpg",
@@ -45,7 +40,6 @@
         "phone": "01234903427"
     },
     {
-        "id": "10005",
         "spot": "Srimangal",
         "cost": "5000",
         "img": "https://i.pinimg.com/originals/18/1c/9d/181c9df5e3a1099e70bfcc846de44b9a.jpg",

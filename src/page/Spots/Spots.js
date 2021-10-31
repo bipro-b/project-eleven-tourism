@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Spot from '../Spot/Spot';
 
 
@@ -23,7 +24,7 @@ const Services = () => {
 
                 </Row>
             </Container>
-            <button className="btn btn-success">Add New Place</button>
+            <Link to="/addnew">  <button className="btn btn-success">Add New Place</button></Link>
         </div>
     );
 };
