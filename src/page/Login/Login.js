@@ -25,7 +25,7 @@ const Login = () => {
             <div className="login-form">
 
                 <h3 className="my-5">Please Login with Google</h3>
-                <button onClick={handleGoogleLogin} className="btn btn-success btn-outer-primary"><img src="https://img.icons8.com/color/96/000000/google-logo.png" alt="" /></button>
+                <button onClick={handleGoogleLogin} className="btn btn-success btn-outer-primary mb-5"><img src="https://img.icons8.com/color/96/000000/google-logo.png" alt="" /></button>
 
             </div>
             <Footer></Footer>

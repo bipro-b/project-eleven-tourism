@@ -8,6 +8,7 @@ import Home from './page/Home/Home';
 import Login from './page/Login/Login';
 import ManageTour from './page/ManageTour/ManageTour';
 import NotFound from './page/NotFound/NotFound';
+import PrivateRoute from './page/NotFound/PrivateRoute';
 import Spots from './page/Spots/Spots';
 
 function App() {
@@ -26,9 +27,9 @@ function App() {
             <Route path="/spots">
               <Spots></Spots>
             </Route>
-            <Route path="/spot/:spotId">
+            <PrivateRoute path="/spot/:spotId">
               <Booking></Booking>
-            </Route>
+            </PrivateRoute>
             <Route path="/managetour">
               <ManageTour></ManageTour>
             </Route>

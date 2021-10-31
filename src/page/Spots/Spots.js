@@ -6,7 +6,7 @@ import Spot from '../Spot/Spot';
 const Services = () => {
     const [spots, setSpots] = useState([]);
     useEffect(() => {
-        fetch('/spots.json')
+        fetch('https://shrieking-zombie-24500.herokuapp.com/spots')
             .then(res => res.json())
             .then(data => setSpots(data));
     }, [])
