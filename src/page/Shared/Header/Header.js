@@ -25,7 +25,7 @@ const Header = () => {
                             <NavLink to="/addnew" activeStyle={activeStyle}>Add Place</NavLink>
                             {/* <NavLink to="/booking" activeStyle={activeStyle}>Book Now</NavLink> */}
                             <NavLink to="/manageselection" activeStyle={activeStyle}>Manage Booking</NavLink>
-                            <NavLink to="/managetour" activeStyle={activeStyle}>Manage All Tours</NavLink>
+                            {user.email && <NavLink to="/managetour" activeStyle={activeStyle}>Manage All Tours</NavLink>}
 
                             {user.email && <span style={{ color: 'white' }}>  {user.displayName}  </span>}
                             {
